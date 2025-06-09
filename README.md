@@ -33,29 +33,29 @@ customer engagement and maximizing revenue.
 
 ## Data Analysis and Findings
 The following SQL queries were developed to answer specific business questions:
-### Display bike categories with more than 2 bikes owned by the shop, showing category name and bike count (number_of_bikes).
+### 1.Display bike categories with more than 2 bikes owned by the shop, showing category name and bike count (number_of_bikes).
 <img width="341" alt="image" src="https://github.com/user-attachments/assets/7c185faa-3086-415b-8ec1-0767b0d69a09" />
 
-###  List each customer’s name with their total memberships purchased (membership_count), sorted by highest count first. 
+### 2.List each customer’s name with their total memberships purchased (membership_count), sorted by highest count first. 
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/caa76bad-ffcd-4576-8d56-9f946837c471" />
 
-### Display each bike’s ID, category, original and discounted prices per hour (old_price_per_hour, new_price_per_hour) and per day (old_price_per_day, new_price_per_day). Apply discounts by category:
+### 3.Display each bike’s ID, category, original and discounted prices per hour (old_price_per_hour, new_price_per_hour) and per day (old_price_per_day, new_price_per_day). Apply discounts by category:
 - Electric bikes: 10% hourly, 20% daily
 - Mountain bikes: 20% hourly, 50% daily
 - Others: 50% discount on all rentals
 ### Round discounted prices to 2 decimals.
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/7fc6f83f-eea9-4800-adf1-9a6df1bb282c" />
 
-### Show bike category-wise counts of available (available_bikes_count) and rented bikes (rented_bikes_count).
+### 4.Show bike category-wise counts of available (available_bikes_count) and rented bikes (rented_bikes_count).
 <img width="474" alt="image" src="https://github.com/user-attachments/assets/26470626-a437-4efc-9efa-093d73d04a06" />
 
-### Display total membership revenue by year, month, and membership type (membership_type_name), sorted by year, month, and type.
+### 5.Display total membership revenue by year, month, and membership type (membership_type_name), sorted by year, month, and type.
 <img width="324" alt="image" src="https://github.com/user-attachments/assets/8348bace-c894-409c-84ff-7e48e3cbb9e3" />
 
-### Show total 2023 membership revenue by month and membership type (membership_type_name), including subtotals and grand totals. Sorted by membership type (A-Z) and month.
+### 6.Show total 2023 membership revenue by month and membership type (membership_type_name), including subtotals and grand totals. Sorted by membership type (A-Z) and month.
 <img width="467" alt="image" src="https://github.com/user-attachments/assets/e4be8fd4-7c9c-40d9-9c9c-7d5fd1b561e0" />
 
-### Segment customers by rental count:
+### 7.Segment customers by rental count:
 - More than 10 rentals → 'more than 10'
 - Between 5 and 10 rentals → 'between 5 and 10'
 - Fewer than 5 rentals → 'fewer than 5'
